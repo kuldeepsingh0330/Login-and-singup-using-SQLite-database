@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dash"
+            android:icon="@drawable/home"
+            android:title="Dashboard" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="NAVIGATE">
+            <menu>
+
+                <item
+                    android:id="@+id/prof"
+                    android:icon="@drawable/profile"
+                    android:title="Profile"/>
+
+                <item
+                    android:id="@+id/paym"
+                    android:icon="@drawable/payment"
+                    android:title="Payment" />
+
+                <item
+                    android:id="@+id/cont"
+                    android:icon="@drawable/content"
+                    android:title="E-Content" />
+
+                <item
+                    android:id="@+id/atte"
+                    android:icon="@drawable/attendance"
+                    android:title="Attendance" />
+
+                <item
+                    android:id="@+id/sess"
+                    android:icon="@drawable/exam"
+                    android:title="Sessional" />
+
+                <item
+                    android:id="@+id/qu"
+                    android:icon="@drawable/quiz"
+                    android:title="Quiz" />
+            </menu>
+        </item>
+
+    </group>
+
+
+    <item android:title="More Options">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
